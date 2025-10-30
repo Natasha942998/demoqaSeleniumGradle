@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-
 public class DemoQaTests extends BaseTest {
     WebDriver driver;
 
