@@ -61,4 +61,3 @@ public class BaseTest {
                 .forEach((System.out::println));
     }
 }
-
