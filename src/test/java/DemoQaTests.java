@@ -35,7 +35,7 @@ public class DemoQaTests extends BaseTest {
         final String incorrectUserName = "test";
         final String password = "MiaJohns1*";
 
-               WebElement userNameInput = driver.findElement(By.id("userName"));
+        WebElement userNameInput = driver.findElement(By.id("userName"));
         userNameInput.sendKeys(incorrectUserName);
 
         WebElement passwordInput = driver.findElement(By.cssSelector("#password"));
@@ -64,7 +64,6 @@ public class DemoQaTests extends BaseTest {
 
         WebElement errorMsg = driver.findElement(By.xpath("//*[text()='Invalid username or password!']"));
         Assert.assertEquals(errorMsg.getText(), "Invalid username or password!");
-
     }
 
     @Test
